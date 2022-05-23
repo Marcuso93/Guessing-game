@@ -1,0 +1,59 @@
+/* Write your CSS code in this file */
+body {
+    background-color: rgb(139, 187, 107);
+}
+
+
+#title {
+    display: flex;
+    justify-content: center;
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(7, 30, 61);
+    font-style: italic;
+    text-decoration: underline;
+    padding-bottom: 15px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.table {
+	display: table;
+	margin: 0 auto;
+}
+
+ul#guesses {
+    list-style: none;
+}
+
+ul#guesses li {
+    display: inline;
+    padding-left: 100px;
+    border: 3px solid;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-left: 30px;
+    font-size: 40px;
+
+
+}
+
+#choose {
+    font-family: 'Gill Sans', 'Gill Sans MT';
+}
+
+.enter {
+    padding-top: 10px;
+    padding-bottom: 13px;
+}
+
+button {
+    border-radius: 10px;
+}
+
+input {
+    border-radius: 10px;
+}
